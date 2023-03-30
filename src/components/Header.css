@@ -1,0 +1,127 @@
+.header{
+    display: flex;
+    height: 70vh;
+width: 100vw;
+
+border-radius: 0px;
+background: rgba(255, 205, 158, 1);
+
+}
+.header-left{
+    position: absolute;
+    top: -40px;
+    left: -50px;
+}
+h2{
+    position: absolute;
+    height: 108px;
+width: 562px;
+left: 136px;
+top: 83px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+p{
+    position: absolute;
+    height: 81px;
+width: 495px;
+left: 136px;
+top: 219px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+    
+input{
+    
+    position: absolute;
+    height: 63px;
+width: 344px;
+left: 136px;
+top: 411px;
+border-radius: 8px;
+background: 
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+button{
+     position: absolute;
+    height: 64px;
+    border: 2px solid black;
+width: 216px;
+left: 496px;
+top: 411px;
+border-radius: 6px;
+background: rgba(40, 40, 40, 1);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+h5{
+    position: absolute;
+    height: 81px;
+width: 227px;
+left: 136px;
+top: 315px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 20px;
+font-weight: 800;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+ .header-right img{
+ 
+    position: relative;
+    height: 62vh;
+width: 575px;
+left: 930px;
+top: 20px;
+
+}
+h6{
+    color: white;
+    position: absolute;
+    height: 61px;
+width: 344px;
+left: 124px;
+top: 479px;
+border-radius: nullpx;
+font-family: Inter;
+font-size: 16px;
+font-weight: 800;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}

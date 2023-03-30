@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './components/Header';
+
+import pic1 from './images/pic.png';
+import pic2 from "./images/InstagramLogo.jpg";
+import pic3 from "./images/LinkedinLogo.jpg";
+
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header imgSource={pic1} />
+      <Footer imgSource2={pic2} imgSource3={pic3} />
     </div>
   );
 }
